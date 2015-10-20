@@ -151,19 +151,19 @@ button{
 	border: 0;
 }
 
-aside{
+.feed{
 	position: relative;
 	margin-left: 50px;
 	width: 50%;
 }
 
-aside div{
+.feed div{
 	position: absolute;
 	left: -50px;
 	font-size: 1.8rem;
 }
 
-aside h3, article time{
+.feed h3, article time{
 	margin: 10px 0;
 }
 
