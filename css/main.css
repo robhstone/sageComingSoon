@@ -1,0 +1,222 @@
+
+/* Page Stylings --------------*/
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background: #7d797c url(../img/background.jpg) center center no-repeat fixed;
+	background-size: cover;
+}
+
+body, input{
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 16px;
+	color: #c1bfc0;
+}
+
+.clearfix:before, .clearfix:after{
+	content:"";
+	display: table;
+}
+
+.clearfix:after{
+	clear: both;
+}
+
+
+h1{
+	font-family: Teko, sans-serif;
+	font-size: 120px;
+	font-weight: 300;
+	letter-spacing: 20px;
+	text-transform: uppercase;
+	color: white;
+}
+
+.container{
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+.logo{
+	float: left;
+	width: 70px;
+	height: 70px;
+}
+
+.logo img{
+	width: 100%;
+	height: auto;
+}
+
+header.topHeader{
+	margin-bottom: 191px;
+}
+
+header nav{
+	float: right;
+}
+
+header nav ul{
+	display: none;
+}
+
+main {
+	width: 60%;
+}
+
+b.lead{
+	font-size: 26px;
+	font-weight: 300;
+
+	color: #deddde;
+}
+
+/* Rob Stylings --------------*/
+
+.menuButton {
+	display: inline-block;
+	position: relative;
+	width: 70px;
+	height: 70px;
+	background-color: black;
+	text-align: center;
+	color: white;
+}
+
+.menuButton i {
+	font-size: 2rem;
+	position: relative;
+	top: 50%;
+	transform: translatey(-50%);
+}
+
+.bgRed {
+	background-color: #f63c3c;
+}
+/*
+header nav div{
+	display: block;
+	position: fixed;
+	z-index: 10;
+	width: 100%;
+}*/
+
+main header{
+	margin-bottom: 30px;
+}
+
+section{
+	margin-top: 60px;
+	width: 70%;
+}
+
+h2, section p, form{
+	margin-bottom: 40px;
+}
+
+section h2, button, aside h3, article time{
+	font-family: Teko, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	color: white;
+}
+
+section h2, button{
+	font-weight: 400;
+}
+
+section h2{
+	font-size: 2rem;
+}
+
+section p{
+	font-size: 1.2rem;
+}
+
+input, button{
+	height: 50px;
+	vertical-align: middle;
+}
+
+input{
+	width: 350px;
+	padding-left: 20px;
+}
+
+button{
+	width: 125px;
+	text-align: center;
+	font-size: 1.25rem;
+	letter-spacing: .2em;
+	border: 0;
+}
+
+aside{
+	position: relative;
+	margin-left: 50px;
+	width: 50%;
+	
+}
+
+aside div{
+	position: absolute;
+	left: -50px;
+	font-size: 1.8rem;
+}
+
+aside h3, article time{
+	margin: 10px 0;
+	font-weight: 300;
+}
+
+aside h3{
+	font-size: 1.25rem;
+}
+
+article time, .mainFooter {
+	display: block;
+	font-size: 1rem;
+	color: #959595;
+}
+
+.mainFooter{
+	margin: 200px 0 30px;
+	font-size: .8rem;
+}
+
+.mainFooter p{
+	float: left;
+}
+
+.mainFooter ul li{
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.mainFooter ul{
+	float: right;
+}
+
+.mainFooter a:link{
+	text-decoration: none;
+	color: #c1bfc0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
